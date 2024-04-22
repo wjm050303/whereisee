@@ -1,0 +1,65 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	color: white;
+	background: linear-gradient(130deg, wheat 40%, skyblue);
+	text-align: center;
+}
+
+section {
+	border: 2px dotted darkkhaki;
+	flex-direction: row;
+}
+
+article {
+	flex-direction: row;
+	display: flex;
+}
+
+
+h2 {
+	background-color: lightblue;
+	text-align: center;
+}
+
+h3 {
+	background-color: lightyellow;
+	text-align: center;
+}
+
+section {
+	border: 2px dotted lemonchiffon;
+	width: 300px;
+}
+
+nav > ul {
+	background-color: lightyellow;
+	display: bnflex;
+	flex-wrap: wrap; 
+} 
+
+nav > ul > li {
+	border: 2px dotted ;
+	width: 150px;
+	display: flex;; 
+} 
+
+li {
+	text-align: center;
+}
+
+.t1 {
+	color: black;
+}
+
+.me {
+	line-height: 1.7;
+}
+
+.design {
+	line-height: 1.7;
+}
+
