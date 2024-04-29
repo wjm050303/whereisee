@@ -14,27 +14,29 @@ body {
 	p {
 		font-size: 20px;
 	}
+	section {
+			text-align: center;
+	}
 }
 
 img {
 	width: 200px;
-	border-radius: 40px;
 }
 
 header {
-	color: white;
+	color: black;
 	background: linear-gradient(130deg, wheat 40%, skyblue);
 	text-align: center;
 }
 
 section {
-	border: 2px dotted white;			
+	border: 2px dotted white;
 }
 
 article {
 	display: flex;
-	justify-content: space-detween;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 h2 {
@@ -45,6 +47,11 @@ h2 {
 h3 {
 	background-color: lightyellow;
 	text-align: center;
+}
+
+p {
+	text-align: center;
+	width: 400px;
 }
 
 .t1 {
